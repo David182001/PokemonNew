@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="myweb">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+</head>
+<body ng-controller="Login">
+	<form action="">
+	<div class="estilo" class="container">
+		<div class="row">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+			<div class="col-md-12 text-center">
+				<h1 class="centrado">Inicio de Sesión</h1>
+				<img class="imagen" src="logo.png">
+			</div>
+		</div>
+		<div class="row">
+			<div class="centrado" class="col-md-12 text-center">
+				<img class="imagenes" src="silueta.png">
+				<input class="color" ng-model="a" type="text" placeholder="Ingrese Nombre">
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="centrado" class="col-md-12 text-center">
+				<img class="imagenes" src="candado.png">
+				<input class="color" ng-model="b" type="password" placeholder="Ingrese contraseña">
+			</div>
+		</div>
+		<div class="row">
+		<br>
+			<div class="centrado" class="col-md-12">
+			<button class="colores" type="button" ng-click="Inicio(a,b)">Iniciar Sesión</button>
+			</div>
+		</div>
+	</div>
+</form>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
